@@ -9,7 +9,7 @@ def main():
     
     start_time=time.time()
        
-    readfile=ReadWriteFile("belgium.pfm")
+    readfile=ReadWriteFile("test//belgium.pfm")
     data,scale,width,height = readfile.readPFM()
     
     print('ELTM TMO!')
@@ -17,7 +17,7 @@ def main():
     
     starttmo=eltm_tmo(data,scale,width,height)
     array=starttmo.tmo()
-    ReadWriteFile.writePPM("test.ppm",width,height,np.int8(array))
+    ReadWriteFile.writePPM("test//test.ppm",width,height,np.int8(array))
     
     print('Converted to LDR image.')
     end_time=time.time()
