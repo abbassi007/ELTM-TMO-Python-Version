@@ -40,4 +40,4 @@ To install below libraries via ``pip``, run the following command:
 
 ## Contact
 
-If you have any questions feel free to contact me at **shahidabbassi002[at][gmail][dot][com]**
+If you have any issue or a question you can reach me at **shahidabbassi002[at][gmail][dot][com]**
