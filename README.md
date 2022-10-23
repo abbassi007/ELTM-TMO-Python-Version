@@ -1,6 +1,6 @@
 # Python Version of ELTM TMO
 
-This repository contain the implemention of ELTM TMO in Python.
+This repository contain the implemention of Enhanced Local Tone Mapping (ELTM) TMO in Python.
 
 ## Requirements
 
@@ -27,17 +27,17 @@ To install below libraries via ``pip``, run the following command:
 ## Running Code
 
 1. Download the file.
-1. After downloading make sure you install and import all the required libraries.
-1. Open the "main.py" file and run.
-1. Input:
+2. After downloading make sure you install and import all the required libraries.
+3. Open the "main.py" file and run.
+4. Input:
    - Here the input file is "balgium.pfm", you can provide your own pfm (HDR) image.
-1. Output
+5. Output
    - The output file will be "test.ppm" (LDR) in the test folder.
-
-## Contact
-
-If you have any questions feel free to contact me at **shahidabbassi002[at][gmail][dot][com]**
 
 ## License
 
 [MIT License](LICENSE)
+
+## Contact
+
+If you have any questions feel free to contact me at **shahidabbassi002[at][gmail][dot][com]**
